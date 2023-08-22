@@ -1,1 +1,1 @@
-# config
+# QuantumVim's config repository
