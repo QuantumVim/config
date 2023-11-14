@@ -2,7 +2,7 @@ SHELL := /usr/bin/env bash
 
 plugin:
 	@echo creating plugin configuration file
-	bash ./scripts/genconfig.sh -p $(PLUGIN)
+	bash ./scripts/plugingen.sh -p $(PLUGIN)
 
 lint:
 	lint-lua lint-sh
